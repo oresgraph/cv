@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<!-- Muchas gracias por ingresar a esta sección,
+como verás esta página web fue diseñada y elaborada por mi persona
+inicié el diseño en Illustrator seguido elaboré el CSS y HTML
+hay varios scripts como el parallax y las galeria de fotos de: autor 1, autor 2, autor 3
+
+Terminando el css y html inicié la programación en PHP y MySQLi para que pueda
+agregar el contenido a traves de un pequeño administrador
+
+puedes visitar este código en mi github.com/oresgraph 
+
+saludos -->
+
+<html lang="es_BO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Orestes Sotomayor - Diseño y produción audiovisual en Bolivia</title>
+  <meta name="description" content="Diseño gráfico en Bolivia">
+  
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/fotografia.css" />
+  <link rel="stylesheet" type="text/css" href="css/fotoestilo.css" />
+  <link rel="stylesheet" href="css/swiper.min.css">
+  
+  <!-- <script type="text/javascript" src="js/modernizr.custom.86080.js"></script> -->
+  
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <div id="menuArea">
+    <input type="checkbox" id="menuToggle"></input>
+    <label for="menuToggle" class="menuOpen">
+      <div class="open"></div>
+    </label>
+    <div class="menu menuEffects">
+      <label for="menuToggle"></label>
+      <div class="menuContent">
+        <ul>
+          <li><a href="https://api.whatsapp.com/send?phone=59162382802">Whatsapp</a></li>
+          <li><a href="#Instagram">Instagram</a></li>
+          <li><a href="#Youtube">Youtube</a></li>
+          <li><a href="#Behance">Behance</a></li>
+          <li><a href="#Git">Git</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- MENU -->
+
+  
+  <!-- CONTENIDO DE ORESTES SOTOMAYOR -->
+  <div class="parallax">
+    
+    <div id="group1" class="parallax__group portada group1">
+      
+      <div class="botonBajar">
+        <a href="#group2"><div class="bajar amarillo"></div></a>
+      </div>
+
+      <div class="adorno fondoClaro"></div>
+
+      <div class="parallax__layer parallax__layer--base">
+
+        <div class="col w45">
+          <div class="portada der portadaIzq">
+            <h1 class="nombre">Orestes</h1>
+            <div class="apellido">Sotomayor Vásquez</div>
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="botonContactar">Whatsapp</a>
+          </div>
+        </div>
+
+        <!-- <div class="col w10">
+          <div class="textoVertical">
+            <div class="texto">///////////////////// <strong>¿Qué puedo hacer por Ud.?</strong> /////////////////////
+            </div>
+          </div>
+        </div> -->
+
+        <div class="col w45">
+          <div class="centro izq portadaDer">
+            <div class="cajaDescripcion">
+              <h6>Video</h6>
+              <div class="descripcion">cámara edición animación dron</div>
+            </div>
+
+            <div class="cajaDescripcion">
+              <h6>Diseño</h6>
+              <div class="descripcion">apps web ux imprenta redes</div>
+            </div>
+
+            
+            <div class="cajaDescripcion">
+              <h6>Fotografía</h6>
+              <div class="descripcion">coverturas personas</div>
+            </div>
+            
+            <div class="cajaDescripcion">
+              <h6>Código</h6>
+              <div class="descripcion">css html php dart</div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="group2" class="parallax__group group2">
+
+      <div class="botonBajar">
+        <a href="#group3" class="bajar claro"></a>
+
+        <div class="contactarme">
+          <div class="cajaBoton">
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="boton rojo">Whatsapp</a>
+          </div>
+          <div class="nombreContacto blanco">
+            <h5>Orestes Sotomayor Vásquez</h5>
+            <h6>Producción audio visual</h6>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="parallax__layer parallax__layer--back">
+        <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+          <source src="fuentes/reel4.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    </div>
+
+    <div id="group3" class="parallax__group bggris">
+      <!-- gupo 3 -->
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="botonBajar">
+          <a href="#group5" class="bajar oscuro"></a>
+        </div>
+
+        <div class="col w50">
+          <div class="centro der produccionIzq">
+            <div class="iconProduccionGrande">
+              <img src="fuentes/icon-video-grande.png" alt="">
+            </div>
+            <h3>Orestes Sotomayor Vásquez</h3>
+            <h2>Producción<br>Audiovisual</h2>
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="contactar rojo">Whatsapp</a>
+          </div>
+        </div>
+
+        <div class="col w50">
+          <div class="centro izq produccionDer">
+
+            <div class="cajaDescripcion">
+              <h3>Filmación</h3>
+              <div class="icon">
+                <img src="fuentes/icon-video-pequeno.png" alt="">
+              </div>
+              <div class="descripcion">El manejo de la camare de manera manual hace hace que pueda adaptarme</div>
+            </div>
+
+            <div class="cajaDescripcion">
+              <h3>Edición</h3>
+              <div class="icon">
+                <img src="fuentes/icon-media-pequeno.png" alt="">
+              </div>
+              <div class="descripcion">El manejo de la camare de manera manual hace hace que pueda adaptarme en
+                condiciones de luz</div>
+            </div>
+
+            <div class="cajaDescripcion">
+              <h3>Animación</h3>
+              <div class="icon">
+                <img src="fuentes/icon-editor-pequeno.png" alt="">
+              </div>
+              <div class="descripcion">El manejo de la camare de manera manual hace hace que pueda</div>
+            </div>
+
+            <div class="cajaDescripcion">
+              <h3>Piloto de Dron</h3>
+              <div class="icon">
+                <img src="fuentes/icon-drone-pequeno.png" alt="">
+              </div>
+              <div class="descripcion">Camare de manera manual hace hace que pueda </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- grupo 3-->
+    </div>
+
+
+
+    <div id="group4" class="parallax__separador">
+      <!-- video divisor -->
+    </div>
+
+
+
+    <div id="group5" class="parallax__group">
+
+      <div class="adorno fondoAzul"></div>
+
+      <div class="parallax__layer parallax__layer--fore">
+
+        <div class="botonBajar">
+          <a href="#group6" class="bajar claro"></a>
+        </div>
+
+        <div class="contactarme">
+          <div class="cajaBoton">
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="boton amarilloAzul">Whatsapp</a>
+          </div>
+          <div class="nombreContacto blanco">
+            <h5>Orestes Sotomayor Vásquez</h5>
+            <h6>Diseño para aplicaciones móviles</h6>
+          </div>
+        </div>
+
+
+        <div class="empujarVertical"></div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide imgApp">
+              <img src="fuentes/app.png" alt="">
+            </div>
+            <div class="swiper-slide imgApp">
+              <img src="fuentes/app.png" alt="">
+            </div>
+            <div class="swiper-slide imgApp">
+              <img src="fuentes/app.png" alt="">
+            </div>
+            <div class="swiper-slide imgApp">
+              <img src="fuentes/app.png" alt="">
+            </div>
+
+          </div>
+          <!-- Add Pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        <div class="empujarVertical"></div>
+      </div>
+
+      <div class="parallax__layer parallax__layer--base">
+        <!-- <div class="title">2 Base Layer</div> -->
+      </div>
+    </div>
+
+
+    <div id="group6" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+
+        <div class="botonBajar">
+          <a href="#group7" class="bajar oscuro"></a>
+        </div>
+
+        <div class="col w50 disenoApp">
+          <div class="cajaDescripcion">
+            <h3>Orestes Sotomayor Vásquez</h3>
+            <h2>Diseño para<br>aplicaciones<br>móviles</h2>
+            <p>Tener una buena <strong>Experiencia<br>de Usuario</strong> aumentara tu<br>conección con tus clientes</p>
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="contactar">Whatsapp</a>
+          </div>
+        </div>
+        <div class="col w50">
+        </div>
+
+        <div class="adorno fondoClaro2"></div>
+
+      </div>
+      <div class="parallax__layer parallax__layer--base fondoApp">
+      </div>
+    </div>
+
+    <div id="group7" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+
+        <div class="botonBajar"><a href="#group8" class="bajar claro"></a></div>
+
+        <div class="contactarme">
+          <div class="cajaBoton">
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="boton amarilloGris">Whatsapp</a>
+          </div>
+          <div class="nombreContacto blanco">
+            <h5>Orestes Sotomayor Vásquez</h5>
+            <h6>Experiencia de Usuario</h6>
+          </div>
+        </div>
+
+
+        <div class="col w45">
+          <div class="centro uxIzq">
+            <img src="../fuentes/app-blanca.png" alt="" class="">
+          </div>
+
+        </div>
+        <div class="col w55">
+          <div class="centro uxDer">
+            <h2><strong>U</strong>ser E<strong>x</strong>perience</h2>
+            <p>Tener una buena <strong>Experiencia de Usuario</strong> aumentara la conección con tus usuarios</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="parallax__layer parallax__layer--base">
+
+      </div>
+    </div>
+
+    <div id="group8" class="parallax__group portada">
+
+      <div class="adorno fondoClaro"></div>
+
+      <div class="parallax__layer parallax__layer--fore disenoWeb">
+
+        <div class="botonBajar"><a href="#group9" class="bajar verde"></a></div>
+
+        <div class="contactarme">
+          <div class="cajaBoton">
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="boton verdeB">Whatsapp</a>
+          </div>
+          <div class="nombreContacto gris">
+            <h5>Orestes Sotomayor Vásquez</h5>
+            <h6>Diseño Web</h6>
+          </div>
+        </div>
+
+
+        <div class="col der w45 disenoWebIzq">
+          <h2>Diseño Web</h2>
+          <p>Tener una buena <strong>Experiencia de Usuario</strong> aumentara tu conección con tus clientes</p>
+        </div>
+
+        <div class="col izq w55 disenoWebDer">
+          <img src="fuentes/disenoweb.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="parallax__layer parallax__layer--base">
+        <!-- <div class="title">2 Base Layer</div> -->
+      </div>
+
+    </div>
+
+    <div id="group9" class="parallax__group">
+
+      <div class="botonBajar">
+        <a href="#group10" class="bajar claro"></a>
+      </div>
+
+      <div class="contactarme">
+        <div class="cajaBoton">
+          <a href="https://api.whatsapp.com/send?phone=59162382802" class="boton verdeB">Whatsapp</a>
+        </div>
+        <div class="nombreContacto blanco">
+          <h5>Orestes Sotomayor Vásquez</h5>
+          <h6>Diseño para Imprenta</h6>
+        </div>
+      </div>
+
+      <div class="parallax__layer parallax__layer--back">
+        <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+          <source src="fuentes/disenoGrafico.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    </div>
+
+
+    <div id="group10" class="parallax__group imprenta">
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="botonBajar">
+          <a href="#group12" class="bajar oscuro"></a>
+        </div>
+
+        <div class="col der w55">
+          <img src="fuentes/deiseno-img.png" alt="">
+        </div>
+
+        <div class="col izq w45">
+          <div class="imprentaDer">
+            <h3>Orestes Sotomayor Vásquez</h3>
+            <h2>Diseño para imprenta</h2>
+            <p>Tener una buena <Strong>Experiencia de Usuario</Strong> aumentara tu conección con tus clientes </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="group11" class="parallax__separador">
+      <!-- video divisor -->
+    </div>
+
+
+
+    <div id="group12" class="parallax__group redes">
+      <div class="adornoRedes fondoRedes"></div>
+
+      <div class="parallax__layer parallax__layer--fore">
+
+        <div class="botonBajar">
+          <a href="#group13" class="bajar oscuro"></a>
+        </div>
+
+        <div class="contactarme">
+          <div class="cajaBoton">
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="boton azul">Whatsapp</a>
+          </div>
+          <div class="nombreContacto gris">
+            <h5>Orestes Sotomayor Vásquez</h5>
+            <h6>Diseño para Redes Sociales</h6>
+          </div>
+        </div>
+
+        <div class="col der w50">
+          <h2>Redes Sociales</h2>
+          <p>Tener una buena Experiencia de Usuario aumentara tu conección con tus clientes</p>
+        </div>
+        <div class="col izq w50">
+          <img src="fuentes/redes-img.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="parallax__layer parallax__layer--base">
+        <!-- <div class="title">2 Base Layer</div> -->
+      </div>
+    </div>
+
+
+    <div id="group13" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+
+        <div class="botonBajar">
+          <a href="#group14" class="bajar claro"></a>
+        </div>
+
+        <div class="contactarme">
+          <div class="cajaBoton">
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="boton amarilloGris">Whatsapp</a>
+          </div>
+          <div class="nombreContacto blanco">
+            <h5>Orestes Sotomayor Vásquez</h5>
+            <h6>Fotografía</h6>
+          </div>
+        </div>
+
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+
+        <ul class="cb-slideshow">
+          <li><span>Image 01</span>
+            <div></div>
+          </li>
+          <li><span>Image 02</span>
+            <div></div>
+          </li>
+          <li><span>Image 03</span>
+            <div></div>
+          </li>
+          <li><span>Image 04</span>
+            <div></div>
+          </li>
+          <li><span>Image 05</span>
+            <div></div>
+          </li>
+          <li><span>Image 06</span>
+            <div></div>
+          </li>
+          <li><span>Image 07</span>
+            <div></div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+
+    <div id="group14" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore footer">
+
+        <div class="botonBajar"><a href="#group1" class="bajar subir"></a></div>
+
+        <div class="tabla">
+
+          <div class="fila">
+            <h2>Orestes</h2>
+            <h3>Sotomayor Vásquez</h3>
+            <a href="https://api.whatsapp.com/send?phone=59162382802" class="botonContactar">Whatsapp</a>
+
+            <div class="habilidad">
+              <h4>¿Qué puedo hacer?</h4>
+
+              <table>
+                
+                <tr>
+                  <td><strong>Edición</strong></td>
+                  <td id="alIzq">* * * * * *</td>
+                </tr>
+                <tr>
+                  <td>Adobe Premiere Pro</td>
+                  <td id="alIzq">* * * * * * * *</td>
+                </tr>
+                <tr>
+                  <td>Adobe After Effects</td>
+                  <td id="alIzq">* * * *</td>
+                </tr>
+                <tr>
+                  <td>Adobe Audition</td>
+                  <td id="alIzq">* * * * * *</td>
+                </tr>
+                <tr>
+                  <td>Piloto de drone DJI</td>
+                  <td id="alIzq">* * * * </td>
+                </tr>
+                <tr>
+                  <td>OBS - Streaming</td>
+                  <td id="alIzq">* * * * * *</td>
+                </tr>
+                <tr>
+                  <td><strong>Diseño</strong></td>
+                  <td id="alIzq">* * * * * *</td>
+                </tr>
+                <tr>
+                  <td>Adobe Illustrator</td>
+                  <td id="alIzq">* * * * * * * * *</td>
+                </tr>
+                <tr>
+                  <td>Adobe Photoshop</td>
+                  <td id="alIzq">* * * * * * * </td>
+                </tr>
+                <tr>
+                  <td>Adobe Indesign</td>
+                  <td id="alIzq">* * * * * * * *</td>
+                </tr>
+                <tr>
+                  <td>Blender</td>
+                  <td id="alIzq">* * * *</td>
+                </tr>
+                
+
+                
+          
+                
+                <tr>
+                  <td>Sketchup</td>
+                  <td id="alIzq">* * * * * * </td>
+                </tr>
+                <tr>
+                  <td><strong>Fotografía</strong></td>
+                  <td id="alIzq">* * * * * *</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Código</strong></td>
+                  <td id="alIzq">* * * * * *</td>
+                </tr>
+
+                <tr>
+                  <td>HTML</td>
+                  <td id="alIzq">* * * * * * </td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td id="alIzq">* * * * * * </td>
+                </tr>
+                <tr>
+                  <td>PHP</td>
+                  <td id="alIzq">* * * * * * </td>
+                </tr>
+                <tr>
+                  <td>MySQL</td>
+                  <td id="alIzq">* * * * * * </td>
+                </tr>
+                
+                
+              </table>
+
+            </div>
+
+            <h4>Puede ver mi trabajo en:</h4>
+            <a href="#" class="linTrabajo">linkedin</a>
+            <a href="#" class="linTrabajo">youtube</a>
+            <a href="#" class="linTrabajo">beance</a>
+            <a href="#" class="linTrabajo">play sore</a>
+            <a href="#" class="linTrabajo">github</a>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="parallax__layer parallax__layer--base">
+
+      </div>
+    </div>
+
+    
+  </div>
+  <!-- CONTENIDO DE ORESTES SOTOMAYOR -->
+  
+  
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,859 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+  }
+
+body {
+	font: 100% / 1.5;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+strong{
+	font-weight: 700;
+}
+
+
+
+h1{
+	font-size: 159px;
+	line-height: 100px;
+}
+
+h2{
+	font-size: 65px;
+	line-height: 65px;
+}
+
+h3{
+	font-size: 32px;
+}
+
+h4{
+	font-size: 28px;
+	line-height: 32px;
+}
+
+h5{
+    font-size: 25px;
+	line-height: 23px;
+}
+
+h6{
+	font-size: 52px;
+	line-height: 65px;
+}
+
+
+
+.swiper-container {
+	width: 100%;
+	height: 60%;
+	background: url('../fuentes/bgApp.gif') center repeat-x;
+  }
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	max-width: 320px;
+  }
+
+  .empujarVertical{
+	  height: 20%;
+  }
+
+  .imgApp img{
+	  height: 100%;
+	  width: auto;
+  }
+
+.portadaIzq{
+	text-align: right;
+	color: #999999;
+	font-size: 16px;
+}
+
+.portada h1{
+	color: #0063ff;
+	font-weight: 100;
+	padding: 0;
+	margin: 20px 0 10px 0;
+}
+
+.portada .apellido{
+	color: #0063ff;
+	font-weight: 300;
+	font-size: 45px;
+	padding: 0;
+	margin: 0 0 19px 0;
+}
+
+.portada .botonContactar {
+	text-decoration: none;
+	background-color: #ffff00;
+	padding: 8px 55px;
+	color: #0063ff;
+	border-radius: 50px;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+.portadaDer h6{
+	color: #0063ff;
+	padding: 0;
+	margin: 0;
+	font-weight: 100;
+	}
+
+
+
+.textoVertical .texto{
+	writing-mode: sideways-lr;
+	font-size: 20px;
+	color: #0063ff;
+	text-align: center;
+	font-weight: 100;
+}
+.textoVertical .texto strong{
+	font-style: italic;
+}
+
+.portadaDer .descripcion {
+	word-spacing: 30px;
+	color: #999999;
+}
+
+
+
+#videoBG{
+	width:100%;     
+    height: auto;
+}
+
+.botonBajar{
+	/* position: fixed;
+	width: 100vw;
+	z-index: 10000; */
+}
+
+.botonBajar .bajar{
+	z-index: 10000;
+    position: absolute;
+    bottom: 45px;
+    left: 46.8%;
+    height: 78px;
+    width: 78px;
+    background-repeat: no-repeat;
+    background-size: 78px 78px;
+}
+.subir{
+	background-image: url('../fuentes/dienador-grafico-en-bolivia-botton-subir.png');
+}
+.amarillo{
+	background-image: url('../fuentes/dienador-grafico-en-bolivia-botton-bajar-amarillo.png');
+}
+.verde{
+	background-image: url('../fuentes/dienador-grafico-en-bolivia-botton-bajar-verde.png');
+}
+.claro{
+	background-image: url('../fuentes/dienador-grafico-en-bolivia-botton-bajar-claro.png');
+}
+.oscuro{
+	background-image: url('../fuentes/dienador-grafico-en-bolivia-botton-bajar-oscuro.png');
+}
+
+.adorno{
+	-webkit-transform: translateZ(50px) scale(1);
+		transform: translateZ(50px) scale(1);
+  
+	z-index: 7;
+	position: absolute;
+	bottom: 150px;
+	right: 290px;
+
+	width: 248px;
+	height: 110px;
+	background-repeat: no-repeat;
+	background-size: 249px 110px;
+}
+
+.adornoRedes{
+	-webkit-transform: translateZ(50px) scale(1);
+		transform: translateZ(50px) scale(1);
+  
+	z-index: 7;
+	position: absolute;
+	left: 25%;
+	width: 1325px;
+	height: 861px;
+	background-repeat: no-repeat;
+	background-size: 1325px 861px;
+}
+
+	.fondoRedes{
+		background-image: url('../fuentes/redes-fondo.png');
+	}
+	.fondoAzul{
+		background-image: url('../fuentes/para-fondo-azul.png');
+	}
+	.fondoClaro{
+		background-image: url('../fuentes/para-fondo-claro.png');
+	}
+	.fondoClaro2{
+		background-image: url('../fuentes/para-fondo-claro-2.png');
+	}
+
+
+.bggris{
+	background-color: #000000db;
+}
+
+.w10{
+	width: 1vw;
+}
+.w45{
+	width: 48vw;
+}
+
+.w50{
+	width: 49vw;
+}
+.w55{
+	width: 54vw;
+}
+
+.col{
+	display: table-cell;	
+	vertical-align: middle;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+	.der{
+		text-align: right;
+		padding: 0 100px 0 0;
+	}
+	.izq{
+		text-align: left;
+		padding: 0 0 0 100px;
+	}
+
+
+ .produccionDer{
+	text-align: left;
+	color: #999999;
+	font-size: 16px;
+	max-width: 420px;
+}
+ .produccionDer h3{
+	color: red;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0	;
+	
+}
+
+
+ .produccionIzq{
+	text-align: right;
+	color: #999999;
+	font-size: 16px;
+}
+ .produccionIzq h3{
+	color: #999999;
+	padding: 0 0 0 0;
+	
+	font-weight: 100;
+	margin: 0 0 5px 0;
+}
+ .produccionIzq h2{
+	color: red;
+	padding: 0 0 0 0;
+	margin: 0 0 15px 0	;
+}
+.produccionIzq .contactar{
+	text-decoration: none;
+	background-color: red;
+	padding: 5px 30px;
+	color: #ffffff;
+	border-radius: 50px;
+	font-size: 28px;
+}
+.produccionIzq .contactar:hover{
+	background-color: rgb(255, 60, 0);
+}
+.iconProduccionGrande{
+	margin-bottom: 0px;
+}
+
+.cajaDescripcion{
+	display: block;
+	margin-bottom: 25px;
+}
+.icon{
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 15px;
+}
+.descripcion{
+	display: table-cell;
+	vertical-align: top;
+}
+
+
+.disenoApp{
+	text-align: right;
+	color: #999999;
+	padding: 5% 150px 0 0;
+}
+
+.disenoApp h2{
+	
+	font-weight: 700;
+	color: #0063ff;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+}
+.disenoApp h3{
+	font-weight: 300;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+}
+.disenoApp p{
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 300;
+	margin: 0 0 22px 0;
+	padding: 0 0 0 0;
+	color: #999999;
+}
+.disenoApp p strong{
+	font-weight: 700;
+	
+}
+.disenoApp .contactar{
+	text-decoration: none;
+	background-color: #0063ff;
+	padding: 8px 55px;
+	color: #ffffff;
+	border-radius: 50px;
+	font-weight: 300;
+	font-size: 28px;
+}
+.fondoApp{
+	background-image: url('../fuentes/fondo-app.png');
+	background-color: #f6f9fd;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.uxIzq{
+	text-align: right;
+	padding: 0 23px 0 0;
+}
+.uxIzq img{
+	max-height: 500px;
+}
+.uxDer{
+	text-align: left;
+	padding: 0 0 0 23px;
+}
+.uxDer h2{
+	color: #ffffff;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+}
+.uxDer p{
+	max-width: 500px;
+	font-size: 32px;
+	line-height: 37px;
+	color: #ffffff;
+	font-weight: 300;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.uxDer strong{
+	color: #ffef00;
+	font-weight: 700;
+}
+
+.disenoWebIzq{
+	text-align: right;
+	padding: 0 23px 0 0;
+}
+.disenoWebDer{
+	text-align: left;
+	padding: 0 0 0 23px;
+	
+}
+.disenoWebDer img{
+
+	max-width: 600px;
+}
+.disenoWeb h2{
+	
+	color: #14d49a;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+}
+.disenoWeb p{
+	font-size: 32px;
+	line-height: 37px;
+	color: #999999;
+	font-weight: 300;
+	margin: 0 0 0 400px;
+	padding: 0 0 0 0;
+}
+.disenoWeb strong{
+	font-weight: 700;
+}
+
+.imprentaDer{
+	max-width: 450px;
+}
+.imprentaIzq{
+}
+
+.imprenta h2{
+	
+	font-weight: 700;
+	color: #14d49a;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+}
+.imprenta h3{
+	
+	color: #666666;
+	font-weight: 100;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+}
+.imprenta p{
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 300;
+	margin: 0 0 22px 0;
+	padding: 0 0 0 0;
+	color: #666666;
+}
+
+
+.redes h2{
+	
+	font-weight: 700;
+	color: #007eff;
+	margin: 400px 0 10px 0;
+	padding: 0 0 0 0;
+}
+
+.redes p{
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 300;
+	margin: 0 0 22px 300px;
+	padding: 0 0 0 0;
+	color: #666666;
+}
+
+
+.colAbajo{
+	display: table-cell;
+	vertical-align: bottom;
+	height: 650px;
+	width: 100%;
+}
+
+
+.footer{
+	text-align: center;
+	font-size: 16px;
+	color: #999999;
+}
+.footer h2{
+	
+	
+	font-weight: 100;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.footer h3{
+
+	font-weight: 300;
+	padding: 0 0 0 0;
+	margin: 0 0 25px 0;
+}
+
+.footer h4{
+
+	font-weight: 100;
+	padding: 0 0 0 0;
+	margin: 0 0 5px 0;
+}
+
+.footer p{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.footer .tabla{
+	display: table;
+	width: 100%;
+}
+.footer .fila{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100vh;
+}
+.footer .botonContactar {
+	text-decoration: none;
+	background-color: #0063ff;
+	padding: 8px 55px;
+	color: #fff700;
+	border-radius: 50px;
+	font-weight: 300;
+	font-size: 32px;
+}
+.footer .botonContactar:hover {
+	background-color: #0152d5;
+}
+
+.habilidad{
+	margin: 25px 0;
+}
+
+.habilidad table{
+	text-align: center;
+	width: 100%;
+}
+
+.habilidad td{
+	text-align: right;
+	width: 50%;
+	padding-right: 10px;
+	font-weight: 100;
+	padding-bottom: 0;
+	border: 0;
+}
+#alIzq{
+	text-align: left;
+	font-size: 22px;
+	padding-top: 10px;
+	line-height: 7px;
+}
+
+.habilidad .estrella{
+	width: 420px;
+}
+
+.linTrabajo{
+	color: #999999;
+	text-decoration: none;
+	padding: 5px 25px;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.linTrabajo:hover{
+	color: #0063ff;
+}
+
+
+
+.contactarme{
+	position: fixed;
+	top: 100px;
+	left: 100px;
+}
+
+.contactarme .cajaBoton{
+	display: inline;
+	float: left;
+}
+
+.contactarme .nombreContacto{
+	display: inline;
+	float: left;
+}
+
+.contactarme .gris{
+	color: #606060;
+}
+
+.contactarme .blanco{
+	color: #ffffff;
+}
+
+.contactarme h5{
+	margin: 0 0 0 0 ;
+	padding: 0 0 0 0;
+	font-weight: 300;
+}
+
+.contactarme h6{
+	margin: 5px 0 0 0 ;
+	padding: 0 0 0 0;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 900;
+}
+
+.contactarme .boton{
+	text-decoration: none;
+	padding: 8px 55px;
+	margin-right: 15px;
+	border-radius: 50px;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+.contactarme .rojo{
+	background-color: #ff0000;
+	color: #ffffff;
+}
+.contactarme .rojo:hover{
+	background-color: #e40000;
+}
+
+.contactarme .azul{
+	background-color: #007eff;
+	color: #ffffff;
+}
+.contactarme .azul:hover{
+	background-color: #0377eb;
+}
+
+
+
+.contactarme .amarilloAzul{
+	background-color: #ffff00;
+	color: #0063ff;
+}
+.contactarme .amarilloAzul:hover{
+	background-color: #ffe100;
+}
+
+.contactarme .amarilloGris{
+	background-color: #ffef00;
+	color: #606060;
+}
+.contactarme .amarilloGris:hover{
+	background-color: #eaff00;
+}
+
+
+.contactarme .verdeB{
+	background-color: #14d49a;
+	color: #ffffff;
+}
+.contactarme .verdeB:hover{
+	background-color: #11c28d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+	#videoBG{
+		height: 100vh;  
+		width: auto;   
+	}
+
+	.imgApp img {
+		height: 88%;
+		width: auto;
+	}
+
+	.uxIzq img {
+		max-height: 378px;
+	}
+
+	.swiper-slide {
+		max-width: 220px;
+	}
+
+	.portada .apellido {
+		font-size: 27px;
+	}
+	h1 {
+		font-size: 93px;
+		line-height: 49px;
+	}
+	h2 {
+		font-size: 48px;
+		line-height: 48px;
+	}
+	h3 {
+		font-size: 21px;
+	}
+	h5 {
+		font-size: 19px;
+		line-height: 14px;
+	}
+	h6 {
+		font-size: 32px;
+		line-height: 32px;
+	}
+	.portada .botonContactar {
+		font-size: 24px;
+	}
+	.portadaDer .descripcion {
+		font-size: 14px;
+	}
+	.contactarme .boton {
+		font-size: 23px;
+	}
+	.contactarme h6 {
+		font-size: 16px;
+	}
+	.produccionIzq .contactar {
+		font-size: 22px;
+	}
+	.disenoApp .contactar{
+		font-size: 23px;
+	}
+	.der {
+		padding: 0 50px 0 0;
+	}
+	.izq {
+		padding: 0 0 0 50px;
+	}
+	.produccionIzq img{
+		height: 205px;
+		width: auto;
+	}
+	.produccionDer {
+		font-size: 14px;
+	}
+	.disenoApp p {
+		font-size: 26px;
+		line-height: 31px;
+	}
+	
+	.botonBajar .bajar {
+		bottom: 35px;
+		height: 48px;
+		width: 48px;
+		background-size: 48px 48px;
+	}
+	.izq img{
+		max-height: 380px;
+		width: auto;
+	}
+	.footer .botonContactar {
+		font-size: 23px;
+	}
+	.cajaDescripcion {
+		margin-bottom: 10px;
+	}
+	.produccionDer {
+		max-width: 300px;
+	}
+	.portadaDer .descripcion {
+		word-spacing: 24px;
+	}
+	.der img {
+		max-height: 348px;
+		width: auto;
+	}
+	.disenoWeb p {
+		font-size: 26px;
+		line-height: 30px;
+		margin: 0 0 0 200px;
+	}
+	.uxDer p {
+		max-width: 500px;
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.uxDer {
+		max-width: 388px;
+	}
+	.redes h2 {
+		margin: 215px 0 10px 0;
+	}
+	.adornoRedes {
+		top: -106px;
+	}
+	.redes p {
+		font-size: 26px;
+		line-height: 30px;
+		margin: 0 0 22px 200px;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.portada h1{
+		font-size: 45px;
+		margin: 0px 0px 0px 0;
+	}
+	.portada .apellido {
+		font-size: 20px;
+	}
+	.portada .botonContactar{
+		font-size: 18px;
+	}
+	.contactarme{
+		flex-wrap: wrap;
+		justify-content: center;
+		/* position: ; */
+		display: flex;
+		top: 100px;
+		left: none;
+	}
+	.contactarme .cajaBoton {
+		padding-bottom: 22px;
+	}
+	.contactarme .nombreContacto{
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+
+  }
+
+@media only screen and (max-width: 600px) {
+    /* celulares: */
+
+    
+  }
+  
+
+  @media only screen and (max-width: 450px) {
+	/* celulares: */	
+
+
+  }
