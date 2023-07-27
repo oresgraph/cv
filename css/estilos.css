@@ -225,7 +225,7 @@ h6{
 	width: 1vw;
 }
 .w45{
-	width: 48vw;
+	/* width: 48vw; */
 }
 
 .w50{
@@ -233,6 +233,29 @@ h6{
 }
 .w55{
 	width: 54vw;
+}
+
+.DosColumnas{
+	/* max-width: 1024px; */
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	align-items: center;
+	min-height: 100vh;
+}
+.ColIzq{
+	text-align: end;
+	padding: 0 20px 0 0;
+	justify-self: end;
+}
+.ColDer{
+	text-align: start;
+	padding: 0 0 0 20px;
+	justify-self: start;
+}
+.ancho{
+	max-width: 350px;
 }
 
 .col{
@@ -245,11 +268,11 @@ h6{
 
 	.der{
 		text-align: right;
-		padding: 0 100px 0 0;
+		padding: 0 20px 0 0;
 	}
 	.izq{
 		text-align: left;
-		padding: 0 0 0 100px;
+		padding: 0 0 0 20px;
 	}
 
 
@@ -319,7 +342,7 @@ h6{
 
 .cajaDescripcion{
 	display: block;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 .icon{
 	display: table-cell;
@@ -333,9 +356,10 @@ h6{
 
 
 .disenoApp{
+	width: 400px;
 	text-align: right;
 	color: #999999;
-	padding: 5% 150px 0 0;
+	/* padding: 5% 150px 0 0; */
 }
 
 .disenoApp h2{
@@ -387,7 +411,8 @@ h6{
 }
 .uxDer{
 	text-align: left;
-	padding: 0 0 0 23px;
+	width: 450px;
+	/* padding: 0 0 0 23px; */
 }
 .uxDer h2{
 	color: #ffffff;
@@ -411,16 +436,33 @@ h6{
 
 .disenoWebIzq{
 	text-align: right;
-	padding: 0 23px 0 0;
+	padding: 0 10px 0 0;
+	width: 450px;
 }
 .disenoWebDer{
 	text-align: left;
-	padding: 0 0 0 23px;
+	padding: 0 0 0 10px;
+	width: 500px;
 	
 }
+.disenodeimprenta{
+	width: 450px;
+}
+.disenodeimprenta img{
+	max-width: 100%;
+}
+.imprentaDer{
+	text-align: start;
+}
+.imprentaIzq{
+	text-align: end;
+}
+
+
+
 .disenoWebDer img{
 
-	max-width: 600px;
+	max-width: 100%
 }
 .disenoWeb h2{
 	
@@ -434,18 +476,13 @@ h6{
 	line-height: 37px;
 	color: #999999;
 	font-weight: 300;
-	margin: 0 0 0 400px;
 	padding: 0 0 0 0;
 }
 .disenoWeb strong{
 	font-weight: 700;
 }
 
-.imprentaDer{
-	max-width: 450px;
-}
-.imprentaIzq{
-}
+
 
 .imprenta h2{
 	
@@ -472,10 +509,9 @@ h6{
 
 
 .redes h2{
-	
 	font-weight: 700;
 	color: #007eff;
-	margin: 400px 0 10px 0;
+	margin: 0 0 10px 0;
 	padding: 0 0 0 0;
 }
 
@@ -488,6 +524,9 @@ h6{
 	color: #666666;
 }
 
+.redes img{
+	max-width: 100%;
+}
 
 .colAbajo{
 	display: table-cell;
