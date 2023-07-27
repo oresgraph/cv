@@ -295,6 +295,24 @@ h6{
 .produccionIzq .contactar:hover{
 	background-color: rgb(255, 60, 0);
 }
+
+.bblanco{
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 28px;
+    text-decoration: none;
+	background-color: white;
+	color: #ff0000;
+}
+.bazul{
+	padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 28px;
+    text-decoration: none;
+	background-color: #007eff;
+	color: #fff;
+}
+
 .iconProduccionGrande{
 	margin-bottom: 0px;
 }
