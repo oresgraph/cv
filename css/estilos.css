@@ -50,7 +50,7 @@ h6{
 .swiper-container {
 	width: 100%;
 	height: 60%;
-	background: url('../fuentes/bgApp.gif') center repeat-x;
+	/* background: url('../fuentes/bgApp.gif') center repeat-x; */
   }
   .swiper-slide {
 	text-align: center;
@@ -82,7 +82,7 @@ h6{
 
 .portadaIzq{
 	text-align: right;
-	color: #999999;
+	color: #343434;
 	font-size: 16px;
 }
 
@@ -292,7 +292,7 @@ h6{
 
  .produccionIzq{
 	text-align: right;
-	color: #999999;
+	color: #343434;
 	font-size: 16px;
 }
  .produccionIzq h3{
@@ -356,9 +356,9 @@ h6{
 
 
 .disenoApp{
-	width: 400px;
+	max-width: 400px;
 	text-align: right;
-	color: #999999;
+	color: #343434;
 	/* padding: 5% 150px 0 0; */
 }
 
@@ -380,7 +380,7 @@ h6{
 	font-weight: 300;
 	margin: 0 0 22px 0;
 	padding: 0 0 0 0;
-	color: #999999;
+	color: #343434;
 }
 .disenoApp p strong{
 	font-weight: 700;
@@ -474,7 +474,7 @@ h6{
 .disenoWeb p{
 	font-size: 32px;
 	line-height: 37px;
-	color: #999999;
+	color: #343434;
 	font-weight: 300;
 	padding: 0 0 0 0;
 }
@@ -493,8 +493,8 @@ h6{
 }
 .imprenta h3{
 	
-	color: #666666;
-	font-weight: 100;
+	color: #343434;
+	font-weight: 300;
 	margin: 0 0 10px 0;
 	padding: 0 0 0 0;
 }
@@ -504,7 +504,7 @@ h6{
 	font-weight: 300;
 	margin: 0 0 22px 0;
 	padding: 0 0 0 0;
-	color: #666666;
+	color: #343434;
 }
 
 
@@ -521,7 +521,7 @@ h6{
 	font-weight: 300;
 	margin: 0 0 22px 300px;
 	padding: 0 0 0 0;
-	color: #666666;
+	color: #343434;
 }
 
 .redes img{
@@ -539,7 +539,7 @@ h6{
 .footer{
 	text-align: center;
 	font-size: 16px;
-	color: #999999;
+	color: #343434;
 }
 .footer h2{
 	
@@ -618,7 +618,7 @@ h6{
 }
 
 .linTrabajo{
-	color: #999999;
+	color: #343434;
 	text-decoration: none;
 	padding: 5px 25px;
 	font-size: 18px;
@@ -648,7 +648,7 @@ h6{
 }
 
 .contactarme .gris{
-	color: #606060;
+	color: #343434;
 }
 
 .contactarme .blanco{
@@ -706,7 +706,7 @@ h6{
 
 .contactarme .amarilloGris{
 	background-color: #ffef00;
-	color: #606060;
+	color: #343434;
 }
 .contactarme .amarilloGris:hover{
 	background-color: #eaff00;
@@ -825,7 +825,12 @@ h6{
 		width: auto;
 	}
 	.footer .botonContactar {
-		font-size: 23px;
+		font-size: 15px;
+	}
+	.footer h3 {
+		font-weight: 300;
+		padding: 0 0 0 0;
+		margin: 0 0 15px 0;
 	}
 	.cajaDescripcion {
 		margin-bottom: 10px;
@@ -911,5 +916,105 @@ h6{
   @media only screen and (max-width: 450px) {
 	/* celulares: */	
 
+	.DosColumnas {
+		display: grid;
+		grid-template-columns: 1fr;
+		align-content: center;
+	}
+	.ColIzq {
+		padding: 0 0 0 0;
+		margin: 0 auto;
+		justify-self: end;
+		text-align: center;
+	}
+	.izq {
+		padding: 30px 0 0 0;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.descripcion {
+		display: block;
+	}
+
+	.der {
+		padding: 0 0 0 0;
+		text-align: center;
+	}
+	.ColDer {
+		padding: 0 0 0 0;
+		margin: 0 auto;
+	}
+
+
+	#videoBG {
+		width: auto;
+		height: 100vh;
+	}
+
+
+	.contactarme {
+		justify-content: center;
+		display: flex;
+		top: 26px;
+		left: 0;
+		flex-wrap: wrap;
+	}
+	.icon {
+		display: inline-block;
+		vertical-align: top;
+		padding-right: 5px;
+	}
+	.icon img {
+		max-width: 25px;
+	}
+	.descripcion {
+		display: inline-block;
+		max-width: 170px;
+	}
+	.produccionIzq img {
+		display: none;
+	}
+	.produccionIzq {
+		text-align: center;
+		padding-bottom: 35px;
+	}
+	.produccionIzq h2 {
+
+		margin: 0 0 2px 0;
+		font-size: 35px;
+	}
+	.produccionIzq h3 {
+		font-weight: 300;
+		margin: 0 0 -2px 0;
+	}
+	.produccionIzq .contactar {
+		font-size: 18px;
+	}
+	.bblanco {
+		font-size: 15px;
+	}
+	.disenoApp {
+		max-width: 400px;
+	}
+
+	h2 {
+		font-size: 42px;
+		line-height: 48px;
+	}
+
+	.uxDer h2 {
+		font-size: 30px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.uxIzq img {
+		max-height: 248px;
+	}
+	.uxDer p {
+		max-width: auto;
+		text-align: center;
+		font-size: 24px;
+		padding: 0 16px;
+	}
 
   }
