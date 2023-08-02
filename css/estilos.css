@@ -1017,4 +1017,28 @@ h6{
 		padding: 0 16px;
 	}
 
+	.disenoWebIzq {
+		max-width: 340px;
+	}
+
+	.disenoWeb p {
+		margin: 0 0 0 0;
+	}
+
+	.disenoWebDer {
+		text-align: center;
+		max-width: 300px;
+		margin-top: 14px;
+	}
+	.disenodeimprenta {
+		max-width: 280px;
+	}
+	.ancho {
+		max-width: 136px;
+	}
+	.footer h4 {
+		font-weight: 300;
+		font-size: 20px;
+	}
+
   }
